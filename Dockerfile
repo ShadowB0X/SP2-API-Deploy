@@ -28,5 +28,5 @@ ENV DB_NAME=$DB_NAME \
 WORKDIR /app
 COPY ${JAR_FILE} app.jar
 
-EXPOSE 7000
+EXPOSE 7002
 ENTRYPOINT ["java", "-jar", "app.jar"]
